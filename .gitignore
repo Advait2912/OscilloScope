@@ -1,0 +1,72 @@
+# =========================
+# Build output (STM32, ESP32, Flutter)
+# =========================
+Debug/
+Release/
+build/
+out/
+dist/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# =========================
+# STM32CubeIDE project files
+# =========================
+.settings/
+*.cproject
+*.project
+*.mxproject
+*.launch
+
+# =========================
+# ESP32 / Arduino
+# =========================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# =========================
+# Flutter / Dart
+# =========================
+**/build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+Generated.xcconfig
+flutter_export_environment.sh
+
+# =========================
+# Python (your client.py extras)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
